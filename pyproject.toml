@@ -105,6 +105,7 @@ dev = [
 [tool.setuptools_scm]
 write_to = "uniq/_version.py"
 fallback_version = "0.0.0"
+local_scheme = "no-local-version"
 
 [tool.setuptools.package-data]
 "uniq" = ["*.pyi"]
